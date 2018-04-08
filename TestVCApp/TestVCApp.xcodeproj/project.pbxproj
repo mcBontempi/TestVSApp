@@ -12,6 +12,11 @@
 		D616D7992079CAC900875DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D616D7972079CAC900875DCC /* Main.storyboard */; };
 		D616D79B2079CAC900875DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D616D79A2079CAC900875DCC /* Assets.xcassets */; };
 		D616D79E2079CAC900875DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D616D79C2079CAC900875DCC /* LaunchScreen.storyboard */; };
+		D616D7A72079D60100875DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616D7952079CAC900875DCC /* ViewController.swift */; };
+		D616D7A82079D60100875DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616D7932079CAC900875DCC /* AppDelegate.swift */; };
+		D616D7AB2079D60100875DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D616D79C2079CAC900875DCC /* LaunchScreen.storyboard */; };
+		D616D7AC2079D60100875DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D616D79A2079CAC900875DCC /* Assets.xcassets */; };
+		D616D7AD2079D60100875DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D616D7972079CAC900875DCC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,19 @@
 		D616D79A2079CAC900875DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D616D79D2079CAC900875DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D616D79F2079CAC900875DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D616D7B12079D60100875DCC /* TestVCApp-branch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestVCApp-branch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D616D7B22079D60100875DCC /* TestVCApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestVCApp copy-Info.plist"; path = "/Users/mcBontempi/Temp/TestVSApp/TestVCApp/TestVCApp copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D616D78D2079CAC900875DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D616D7A92079D60100875DCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +54,7 @@
 			children = (
 				D616D7922079CAC900875DCC /* TestVCApp */,
 				D616D7912079CAC900875DCC /* Products */,
+				D616D7B22079D60100875DCC /* TestVCApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D616D7902079CAC900875DCC /* TestVCApp.app */,
+				D616D7B12079D60100875DCC /* TestVCApp-branch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +100,23 @@
 			productReference = D616D7902079CAC900875DCC /* TestVCApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D616D7A52079D60100875DCC /* TestVCApp-branch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D616D7AE2079D60100875DCC /* Build configuration list for PBXNativeTarget "TestVCApp-branch" */;
+			buildPhases = (
+				D616D7A62079D60100875DCC /* Sources */,
+				D616D7A92079D60100875DCC /* Frameworks */,
+				D616D7AA2079D60100875DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestVCApp-branch";
+			productName = TestVCApp;
+			productReference = D616D7B12079D60100875DCC /* TestVCApp-branch.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +129,9 @@
 				TargetAttributes = {
 					D616D78F2079CAC900875DCC = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					D616D7A52079D60100875DCC = {
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -114,6 +150,7 @@
 			projectRoot = "";
 			targets = (
 				D616D78F2079CAC900875DCC /* TestVCApp */,
+				D616D7A52079D60100875DCC /* TestVCApp-branch */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +166,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D616D7AA2079D60100875DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D616D7AB2079D60100875DCC /* LaunchScreen.storyboard in Resources */,
+				D616D7AC2079D60100875DCC /* Assets.xcassets in Resources */,
+				D616D7AD2079D60100875DCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,6 +185,15 @@
 			files = (
 				D616D7962079CAC900875DCC /* ViewController.swift in Sources */,
 				D616D7942079CAC900875DCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D616D7A62079D60100875DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D616D7A72079D60100875DCC /* ViewController.swift in Sources */,
+				D616D7A82079D60100875DCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +362,42 @@
 			};
 			name = Release;
 		};
+		D616D7AF2079D60100875DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3U786KR73N;
+				INFOPLIST_FILE = "TestVCApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDT.TestVCAppbranch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17efde76-3daf-41a1-9009-672e8c5d13ef";
+				PROVISIONING_PROFILE_SPECIFIER = "test app branch profile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D616D7B02079D60100875DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3U786KR73N;
+				INFOPLIST_FILE = "TestVCApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDT.TestVCAppbranch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17efde76-3daf-41a1-9009-672e8c5d13ef";
+				PROVISIONING_PROFILE_SPECIFIER = "test app branch profile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +415,15 @@
 			buildConfigurations = (
 				D616D7A32079CAC900875DCC /* Debug */,
 				D616D7A42079CAC900875DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D616D7AE2079D60100875DCC /* Build configuration list for PBXNativeTarget "TestVCApp-branch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D616D7AF2079D60100875DCC /* Debug */,
+				D616D7B02079D60100875DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
